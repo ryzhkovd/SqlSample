@@ -34,7 +34,7 @@ namespace ConsoleApplication1
                 {
                     StringBuilder sb = new StringBuilder();
                     foreach(var phone in u.phones)
-                        sb.Append(phone.number).Append(" ");
+                        sb.Append(phone.number).Append(";");
                     Console.WriteLine("{0} - {1} {2}", u.Name, u.Age, sb.ToString().Trim());
                 }
             }
